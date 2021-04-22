@@ -7,6 +7,7 @@
     content: "";
     display: table;
     clear: both;
+
 }
 /* utility class */
 
@@ -14,17 +15,54 @@
 
 
 /* fine utility class */
+body{
+    width: 1200px;    
+}
 .centro{
-    width: 1200px;
+    width: 70%;
     margin: auto;
-    
 }
 .contenitore-header{
     background-color: rgb(230, 112, 230);
     height: 40px;
 }
+
 .contenitore-1{
     background-color: rgb(146, 199, 42);
     height: 270px;
     margin-top: 7px;
+}
+.section-1{
+    background-color: blue;
+    height: 350px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.top{
+    background-color: rgb(129, 182, 231);
+    height: 30px;
+}
+.fl{
+    float: left;
+
+}
+.left{
+    background-color: rgb(129, 182, 231);
+    width: 25%;
+    padding: 5px;
+}
+.center{
+    background-color: rgb(129, 182, 231);
+    width: 50%;
+    padding: 5px;
+
+}
+.right{
+    background-color: rgb(129, 182, 231);
+    width: 25%;
+    padding: 5px;
+}
+.contenitore-footer{
+    background-color: rgb(75, 0, 75);
+    height: 40px;
 }
