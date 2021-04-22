@@ -14,4 +14,17 @@
 
 
 /* fine utility class */
-
+.centro{
+    width: 1200px;
+    margin: auto;
+    
+}
+.contenitore-header{
+    background-color: rgb(230, 112, 230);
+    height: 40px;
+}
+.contenitore-1{
+    background-color: rgb(146, 199, 42);
+    height: 270px;
+    margin-top: 7px;
+}
